@@ -1,13 +1,10 @@
 import requests
 import json
 
-response = requests.get("http://allrecipes.com/recipe/17165/big-soft-ginger-cookies/")
-t = response.text
-with open('cookie.txt', 'w') as outfile:
-    outfile.write(t)
-
-#print (type(classes))
-#bs.find_all("a")
-#div = bs.find("div")
-#div.find('div')
-#bs.find('div', {'class' : 'col-xs-6'})
+#Gets a request from the URL.
+request = requests.get("http://allrecipes.com/recipe/17165/big-soft-ginger-cookies/")
+#Gets the HTML from the request.
+html = response.text
+#Writes the HTML to a text file in the 'websites' folder.
+with open('websites/cookie.txt', 'w') as outfile:
+    outfile.write(html)
