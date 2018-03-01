@@ -1,35 +1,27 @@
-#Reads a txt file and prints out all the text elements embedded within class chk_class having tag chk_tag
-
+#Reads a txt file and writes out all the text elements embedded within class chk_class having tag chk_tag
 from bs4 import BeautifulSoup
-import urllib
-import json
-from pprint import pprint
+#from pprint import pprint
 
 chk_tag = 'span'
 chk_class = 'recipe-ingred_txt added'
-ingredient_set = list()
-json_file = "recipes_twenty_pages.json"
+ingredient_list = list()
+txt_file_input = "cookie.txt"
+txt_file_output = "data.txt"
 
-with open('cookie.txt', 'r') as myfile:
-    data=myfile.read().replace('\n', '')
+with open(txt_file_input, 'r') as input_stream:
+    data=input_stream.read().replace('\n', '')
 
 #pprint(data)
 cookie_obj = BeautifulSoup(data, "lxml")
 cookie = cookie_obj.find_all(chk_tag, attrs={'class': chk_class})
 for cookie_ingredient in cookie:
-    ingredient_set.append(cookie_ingredient.string)
-pprint(sorted(ingredient_set))
+    ingredient_list.append(cookie_ingredient.string)
+#pprint(sorted(ingredient_list))
 
-'''
-allCookies = json.loads(open(json_file).read())
-#open the fle read the file and get the
-for i in range(1):  #len(allCookies):
-    print(allCookies[i])
-    page_url = urllib.request.urlopen(allCookies[i])
-    cookie_obj = BeautifulSoup(page_url, "lxml")
-    cookie = cookie_obj.find_all(chk_tag, attrs={'class':chk_class})
-    for cookie_ingredient in cookie:
-       ingredient_set.append(cookie_ingredient.string)
+output = open(txt_file_output, 'w')
+for item in ingredient_list:
+  output.write("%s\n" % ingredient_list)
 
-pprint(sorted(ingredient_set))
-'''
+output.close()
+
+
