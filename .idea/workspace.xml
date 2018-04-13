@@ -14,23 +14,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="basic_data_cleaner.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="basic_data_cleaner.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/basic_data_cleaner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="73" column="33" lean-forward="false" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
+            <state relative-caret-position="627">
+              <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
               <folding>
-                <element signature="e#242#252#0" expanded="true" />
+                <element signature="e#247#257#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dict.csv" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Data_cleaner.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data_cleaner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dict.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dict.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -110,16 +120,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="firstclean_recipe_ingredients.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/firstclean_recipe_ingredients.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="0" column="1325" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="20968" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -131,9 +131,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cookie</find>
-      <find>sugar</find>
-      <find>recipe-ingred_txt</find>
       <find>BeautifulSoup</find>
       <find>yellow cake mix</find>
       <find>import</find>
@@ -149,7 +146,6 @@
       <find>8.5 cup</find>
       <find>8.5 cup butter</find>
       <find>8 cups all-purpose flour</find>
-      <find>salt</find>
       <find>1/2 teaspoon salt</find>
       <find>teas</find>
       <find>float</find>
@@ -158,8 +154,13 @@
       <find>all purpose flour</find>
       <find>all-purpose flour</find>
       <find>teaspoons salt</find>
-      <find>teaspoon salt</find>
       <find>flour</find>
+      <find>salt</find>
+      <find>@@</find>
+      <find>teaspoon salt</find>
+      <find>1.</find>
+      <find>2.</find>
+      <find>split</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -183,6 +184,7 @@
         <option value="$PROJECT_DIR$/scrape.py" />
         <option value="$PROJECT_DIR$/firstclean_recipe_ingredients.json" />
         <option value="$PROJECT_DIR$/website_scraper.py" />
+        <option value="$PROJECT_DIR$/Data_cleaner.py" />
         <option value="$PROJECT_DIR$/basic_data_cleaner.py" />
       </list>
     </option>
@@ -259,7 +261,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.basic_data_cleaner">
+  <component name="RunManager" selected="Python.Data_cleaner">
+    <configuration name="Data_cleaner" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="a-mean-cookie-re" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_cleaner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="basic_data_cleaner" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,24 +293,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="a-mean-cookie-re" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic_data_cleaner.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="ingredientScrape" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="a-mean-cookie-re" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ingredientScrape.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -409,19 +411,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ingredientScrape" />
-      <item index="1" class="java.lang.String" itemvalue="Python.pull_recipes" />
-      <item index="2" class="java.lang.String" itemvalue="Python.website_scraper" />
-      <item index="3" class="java.lang.String" itemvalue="Python.basic_data_cleaner" />
-      <item index="4" class="java.lang.String" itemvalue="Python.scrape" />
+      <item index="0" class="java.lang.String" itemvalue="Python.pull_recipes" />
+      <item index="1" class="java.lang.String" itemvalue="Python.website_scraper" />
+      <item index="2" class="java.lang.String" itemvalue="Python.basic_data_cleaner" />
+      <item index="3" class="java.lang.String" itemvalue="Python.scrape" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Data_cleaner" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.basic_data_cleaner" />
-        <item index="1" class="java.lang.String" itemvalue="Python.scrape" />
-        <item index="2" class="java.lang.String" itemvalue="Python.website_scraper" />
-        <item index="3" class="java.lang.String" itemvalue="Python.pull_recipes" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ingredientScrape" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Data_cleaner" />
+        <item index="1" class="java.lang.String" itemvalue="Python.basic_data_cleaner" />
+        <item index="2" class="java.lang.String" itemvalue="Python.scrape" />
+        <item index="3" class="java.lang.String" itemvalue="Python.website_scraper" />
+        <item index="4" class="java.lang.String" itemvalue="Python.pull_recipes" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522889001862</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="made a LOT of changes to the cleaner.">
+      <created>1523578776983</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1523578776983</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -488,17 +497,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="2762" height="1770" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22362556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22362556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5014859" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44459102" sideWeight="0.49851412" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44459102" sideWeight="0.49851412" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973614" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -577,7 +587,8 @@
     <MESSAGE value="Basic Cleaning operations." />
     <MESSAGE value="redid a lot of stuff" />
     <MESSAGE value="Now includes output to csv" />
-    <option name="LAST_COMMIT_MESSAGE" value="Now includes output to csv" />
+    <MESSAGE value="made a LOT of changes to the cleaner." />
+    <option name="LAST_COMMIT_MESSAGE" value="made a LOT of changes to the cleaner." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -587,13 +598,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scrape2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrape.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -859,21 +863,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic_data_cleaner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="73" column="33" lean-forward="false" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
-          <folding>
-            <element signature="e#242#252#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dict.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_cleaner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_data_cleaner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+          <folding>
+            <element signature="e#247#257#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
